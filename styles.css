@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header, .hero-container, footer{
+    background-color: #1F2937;
+}
+header, .hero-container{
+    display: flex;
+    justify-content: center;
+}
+nav, .hero{
+    padding: 15px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+nav{
+    align-items: center;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+.hero{
+    gap: 15px;
+    padding: 80px 15px;
+}
+
+.hero-img{
+    width: 500px;
+    height: 200px;
+    background-color: #6D747D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+a, .hero-para{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.signup-button-hero{
+    margin-top: 7px;
+    border: none;
+    color: white;
+    background-color: #3882f6;
+    padding: 5px 20px;
+    border-radius: 6px;
+}
+h2{
+    padding: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+.card{
+    text-align: center;
+    width: 150px;
+}
+
+.card-img{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    border: solid 2px #7FADF8;
+}
+.quote-container{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote{
+    width: 50%;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+    padding: 120px 0 0 0;
+}
+.thor{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    padding-bottom: 120px;
+}
+
+.cta-container{
+    padding: 80px 160px;
+    justify-content: center;
+    display: flex;
+}
+.call-to-action{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    padding: 30px;
+}
+
+.signup-button-banner{
+    border-color: white;
+    color: white;
+    background-color: #3882f6;
+    padding: 5px 20px;
+    border-radius: 6px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
