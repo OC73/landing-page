@@ -8,3 +8,7 @@ https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css
 Image Two (Color and Fonts)
 
 https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png
+
+Page deployed
+
+https://oc73.github.io/landing-page/
